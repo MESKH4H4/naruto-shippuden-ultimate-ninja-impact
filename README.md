@@ -170,5 +170,3 @@ Done.
 To see the real difference in quality between the original textures and the AI ​​upscale, access the interactive comparator:
 
 👉 Screenshots : https://meskh4h4.github.io/naruto-shippuden-ultimate-ninja-impact/
-
-Screenshots (PNG Vibrant Colors vs KTX2 Vibrant Colors): [Insert Link Here]
