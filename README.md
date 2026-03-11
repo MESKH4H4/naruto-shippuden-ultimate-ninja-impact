@@ -168,6 +168,9 @@ Done.
 #Screenshots
 
 Screenshots: [Insert Link Here]
+
 Screenshots (PNG Normal vs PNG Vibrant Colors): [Insert Link Here]
+
 Screenshots (PNG Normal vs KTX2 Normal): [Insert Link Here]
+
 Screenshots (PNG Vibrant Colors vs KTX2 Vibrant Colors): [Insert Link Here]
