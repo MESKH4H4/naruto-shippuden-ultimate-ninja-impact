@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Impact HD - Comparador de Texturas</title>
+    
+    <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+
+    <style>
+        :root {
+            --naruto-orange: #ff9000;
+            --dark-bg: #121212;
+            --card-bg: #1e1e1e;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: var(--dark-bg); 
+            color: white; 
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; }
+
+        header {
+            padding: 40px 0;
+            border-bottom: 2px solid var(--naruto-orange);
+            margin-bottom: 40px;
+        }
+
+        h1 { margin: 0; color: var(--naruto-orange); text-transform: uppercase; letter-spacing: 2px; }
+        p.subtitle { font-size: 1.1em; color: #aaa; }
+
+        .comparison-card { 
+            background: var(--card-bg); 
+            padding: 20px; 
+            border-radius: 12px; 
+            margin-bottom: 60px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .comparison-card h2 { 
+            margin-top: 0; 
+            border-left: 4px solid var(--naruto-orange); 
+            padding-left: 15px;
+            font-size: 1.4em;
+        }
+
+        .description { 
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 0.95em;
+            color: #ccc;
+            text-align: left;
+        }
+
+        /* Estilização do Slider */
+        img-comparison-slider {
+            width: 100%;
+            --divider-color: var(--naruto-orange);
+            --default-handle-color: var(--naruto-orange);
+            outline: none;
+            border: 1px solid #333;
+            cursor: col-resize;
+        }
+
+        img-comparison-slider img {
+            width: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .footer {
+            margin-top: 100px;
+            padding: 40px;
+            color: #666;
+            font-size: 0.8em;
+        }
+
+        a { color: var(--naruto-orange); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Naruto Impact HD Texture Pack</h1>
+            <p class="subtitle">Demonstração Interativa de Reconstrução de Texturas (PPSSPP)</p>
+            <a href="https://github.com/meskh4h4/naruto-shippuden-ultimate-ninja-impact">← Voltar para o Repositório</a>
+        </header>
+
+        <div class="comparison-card">
+            <h2>Reconstrução de Anime Cards</h2>
+            <p>Utilizando DINOv2 e CLIP para encontrar frames originais em milhões de imagens do anime.</p>
+            
+            <img-comparison-slider>
+                <img slot="first" src="COLOQUE_AQUI_O_LINK_DA_FOTO_ANTIGA_1.png" />
+                <img slot="second" src="COLOQUE_AQUI_O_LINK_DA_FOTO_NOVA_1.png" />
+            </img-comparison-slider>
+            
+            <div class="description">
+                <strong>Processo:</strong> Extração via FFmpeg e comparação semântica. O resultado é a imagem original do anime substituindo a textura de baixa fidelidade do PSP.
+            </div>
+        </div>
+
+        <div class="comparison-card">
+            <h2>Upscaling de Personagens (AI + Manual)</h2>
+            <p>Comparação entre o upscale padrão e o refinamento feito com Nano Banana V2.</p>
+            
+            <img-comparison-slider>
+                <img slot="first" src="COLOQUE_AQUI_O_LINK_DA_FOTO_ANTIGA_2.png" />
+                <img slot="second" src="COLOQUE_AQUI_O_LINK_DA_FOTO_NOVA_2.png" />
+            </img-comparison-slider>
+            
+            <div class="description">
+                <strong>Processo:</strong> Uso do modelo HDCube4Plus com pós-processamento manual para corrigir artefatos da IA nos rostos dos personagens.
+            </div>
+        </div>
+
+        <div class="footer">
+            Desenvolvido por MESKH4H4 | 2026 <br>
+            Projeto desenvolvido com ferramentas de IA avançadas.
+        </div>
+    </div>
+
+</body>
+</html>
