@@ -165,12 +165,10 @@ Activate:
 
 Done.
 
-#Screenshots
+## 📸 Interactive Comparison (Slider)
 
-Screenshots: [Insert Link Here]
+To see the real difference in quality between the original textures and the AI ​​upscale, access the interactive comparator:
 
-Screenshots (PNG Normal vs PNG Vibrant Colors): [Insert Link Here]
-
-Screenshots (PNG Normal vs KTX2 Normal): [Insert Link Here]
+👉 Screenshots : https://meskh4h4.github.io/naruto-shippuden-ultimate-ninja-impact/
 
 Screenshots (PNG Vibrant Colors vs KTX2 Vibrant Colors): [Insert Link Here]
